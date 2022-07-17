@@ -1,35 +1,35 @@
-# ozPanel directadmin teması
-## daha tanıdık bir görüntüde directAdmin teması (sadece user hesapları için)
+# ozPanel directadmin theme
+## directAdmin theme in a more familiar image (for user accounts only)
 
-Dil seçeneği var gibi görünsede çoğu yerde türkçe olarak sabit metinler var. pratikte ingilizce desteği yok
+Although there seems to be a language option, there are fixed texts in Turkish in most places. practically no english support
 
-Geliştirilmesi ve Kullanılması Serbesttir.
-FakatKopyaların ücretli dağıtılması yasaktır
+It is Free to Develop and Use.
+However, paid distribution of copies is prohibited.
 
 
-## Kurulum 
+## Setup
 ```
 cd /usr/local/directadmin/data/skins/
 git clone https://github.com/ozkula-internet-hizmetleri/ozPanel.git
 ```
 
-- Bu işlem ile klasörü oluşturduktan sonra panelinize admin girişi yapın
-- <sunucuip>/reseller/skins adresine girip ozpanel temasını seçin.
-- Listenin üstünde çıkan Apply to All Users'ı tuşuna basın. 
-- Böylece Tema tüm user seviyesi kullanıcılara uygulanır. 
+- After creating the folder with this process, log in to your panel as admin
+- Go to <serverip>/reseller/skins and select the ozpanel theme.
+- Press the Apply to All Users button above the list.
+- So Theme is applied to all user level users.
 
-## Tema dizin yapısı (özelleştirme)
-- üst kısım logosu: assets/logo-beyaz.png
-- giriş sayfası logosu: assets/logo-siyah.png
-- alt kısım logosu: assets/ozpanel.png
-- ana menu simgeleri: assets/anasayfamenusu
-- favicon simgeleri: assets/fav
-- alt sayfalardaki yardım bağlantısının tanımlandığı dosya: header.html
+## Theme directory structure (customization)
+- top logo: assets/logo-white.png
+- login page logo: assets/logo-black.png
+- bottom logo: assets/ozpanel.png
+- main menu icons: assets/home menu
+- favicon icons: assets/fav
+- file describing the help link on subpages: header.html
 
-## Ekran görüntüsü
+## Screenshot
 ![alt text](https://raw.githubusercontent.com/ozkula-internet-hizmetleri/ozPanel/master/assets/img/screenshot.png)
 
-## Kullanılan Kütüphaneler
+## Libraries Used
 - Bootstrap v4.3.1 (https://getbootstrap.com/)
 - jQuery JavaScript Library v3.4.1 (https://jquery.com/)
 - Fuse.js v3.4.5 - Lightweight fuzzy-search (http://fusejs.io)
